@@ -56,6 +56,10 @@ ul.filter-select {
          button:hover {
              background: #dfe3e4;
          }
+
+         button.selected {
+             background: #d1d6d9;
+         }
     }
 
     li:before {
@@ -100,4 +104,11 @@ ul.filter-select {
     max-height: 200px;
     vertical-align: middle;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+ul.filter-select button:hover:after,
+ul.filter-select button.selected:after,
+li:last-child ul.filter-select button:after {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
 }
