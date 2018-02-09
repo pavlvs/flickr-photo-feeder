@@ -86,3 +86,9 @@ ul.filter-select button.selected:after,
 li:last-child ul.filter-select button:after {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0; }
+
+#searchbox {
+  padding-left: 5px;
+  border-radius: 3px;
+  margin-left: 5px;
+  margin-right: 5px; }
